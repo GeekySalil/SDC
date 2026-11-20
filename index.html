@@ -1,16 +1,26 @@
-
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0052CC" />
+
+  <!-- ================= PERFORMANCE: PRECONNECT, DNS-PREFETCH & LCP PRELOAD ================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+  <link rel="dns-prefetch" href="https://www.google.com" />
+  <link rel="dns-prefetch" href="https://wa.me" />
+  <link rel="preload" as="image" href="images/4.webp" fetchpriority="high" />
 
   <!-- ================= ULTRA-TARGETED LOCAL & "NEAR ME" SEO ================= -->
   <title>Shivansh Dental Clinic | Best Dentist in Varanasi | Dr. Sarvesh Kumar (B.D.S. Lko.)</title>
-  <meta name="description" content="Looking for the best dentist near me in Varanasi? Shivansh Dental Clinic led by Dr. Sarvesh Kumar, B.D.S. (Lko.) with 20+ years experience & 4.8★ Google rating offers painless RCT, implants, braces & complete dental care at Vishwakarma Nagar Colony, Chitaipur & Shivratanpur, Bazardiha Road, Varanasi." />
-  <meta name="keywords" content="Shivansh Dental Clinic, Dr Sarvesh Kumar dentist Varanasi, dentist near me Varanasi, dental clinic Vishwakarma Nagar Colony, Chitaipur, dental clinic Shivratanpur Bazardiha Road, best dentist in Bazardiha Varanasi, root canal treatment Varanasi, dental implants Varanasi, braces clinic near me Varanasi" />
+  <meta name="description" content="Looking for the best dentist near me in Varanasi? Shivansh Dental Clinic led by Dr. Sarvesh Kumar, B.D.S. (Lko.) with 20+ years experience & 4.8★ Google rating offers painless RCT, dental implants, crowns, braces & complete family dental care at Vishwakarma Nagar Colony, Chitaipur & Shivratanpur, Bazardiha Road, Varanasi. Call/WhatsApp: 9918453788." />
+  <meta name="keywords" content="Shivansh Dental Clinic, Dr Sarvesh Kumar dentist Varanasi, best dentist near me Varanasi, dental clinic Vishwakarma Nagar Colony Chitaipur, dental clinic Chitaipur Varanasi, dental clinic Shivratanpur Bazardiha Road, best dentist in Bazardiha Varanasi, painless root canal treatment Varanasi, dental implants Varanasi, zirconia crowns Varanasi, braces clinic near me Varanasi, teeth cleaning Varanasi" />
   <meta name="author" content="Shivansh Dental Clinic" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="format-detection" content="telephone=yes" />
 
   <!-- Geo Meta Tags for Varanasi -->
   <meta name="geo.region" content="IN-UP" />
@@ -18,16 +28,27 @@
   <meta name="geo.position" content="25.266144;82.964943" />
   <meta name="ICBM" content="25.266144, 82.964943" />
 
-  <link rel="icon" type="image/png" href="images/round-logo.png" />
+  <!-- Favicon & App Icon -->
+  <link rel="icon" type="image/webp" href="images/round-logo.webp" />
+  <link rel="apple-touch-icon" href="images/round-logo.webp" />
+
   <!-- Open Graph / Social Sharing Meta -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Shivansh Dental Clinic | Dr. Sarvesh Kumar (B.D.S. Lko.) | Varanasi" />
-  <meta property="og:description" content="4.8★ Rated Dental Clinic in Varanasi with 20+ Years Experience. Two convenient branches at Vishwakarma Nagar Colony, Chitaipur & Shivratanpur, Bazardiha Road. Book via WhatsApp: 9918453788." />
+  <meta property="og:locale" content="en_IN" />
+  <meta property="og:site_name" content="Shivansh Dental Clinic" />
+  <meta property="og:title" content="Shivansh Dental Clinic | Dr. Sarvesh Kumar (B.D.S. Lko.) | Best Dentist in Varanasi" />
+  <meta property="og:description" content="4.8★ Rated Dental Clinic in Varanasi with 20+ Years Experience & 10k+ Patients Treated. Two branches: Vishwakarma Nagar Colony, Chitaipur (10 AM–3 PM) & Shivratanpur, Bazardiha Road (4:30 PM–8:30 PM). WhatsApp: 9918453788." />
+  <meta property="og:image" content="images/4.webp" />
+  <meta property="og:image:alt" content="Shivansh Dental Clinic Modern Dental Operatory in Varanasi" />
 
-  <!-- Google Fonts Preconnect -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+  <!-- Twitter Card Meta -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Shivansh Dental Clinic | Dr. Sarvesh Kumar (B.D.S. Lko.) | Varanasi" />
+  <meta name="twitter:description" content="4.8★ Google Rated Dental Clinic with 20+ Years Experience across 2 Varanasi branches: Chitaipur & Bazardiha Road. WhatsApp Appointment: 9918453788." />
+  <meta name="twitter:image" content="images/4.webp" />
+
+  <!-- Google Fonts (Optimized Swap) -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -54,18 +75,76 @@
     }
   </script>
 
-  <!-- Font Awesome 6 Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Font Awesome 6 Icons (Non-Render-Blocking Load) -->
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" /></noscript>
 
-  <!-- Rich Schema.org LocalBusiness (Dual Branch) & FAQPage Structured Data -->
+  <!-- Rich Schema.org LocalBusiness (Dual Branch), MedicalClinic, OfferCatalog & Complete FAQPage Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "MedicalClinic",
+        "@id": "#shivansh-dental-organization",
+        "name": "Shivansh Dental Clinic",
+        "alternateName": "Shivansh Dental Clinic & Orthodontic Centre, Varanasi",
+        "description": "4.8★ Google rated dental clinic in Varanasi led by Dr. Sarvesh Kumar, B.D.S. (Lko.) with 20+ years of clinical experience across two branches: Vishwakarma Nagar Colony, Chitaipur and Shivratanpur, Bazardiha Road.",
+        "telephone": "+919918453788",
+        "logo": "images/round-logo.webp",
+        "image": "images/4.webp",
+        "medicalSpecialty": ["Dentistry", "Orthodontics", "Endodontics", "Prosthodontics", "OralSurgery"],
+        "founder": {
+          "@type": "Person",
+          "@id": "#dr-sarvesh-kumar",
+          "name": "Dr. Sarvesh Kumar",
+          "jobTitle": "Chief Dental Surgeon",
+          "honorificSuffix": "B.D.S. (Lko.)",
+          "description": "Senior Dental Surgeon with 20+ years of clinical experience in painless root canal treatment, dental implants, orthodontics, zirconia crowns, smile designing & oral surgery."
+        },
+        "areaServed": [
+          "Vishwakarma Nagar Colony, Varanasi",
+          "Chitaipur, Varanasi",
+          "Shivratanpur, Varanasi",
+          "Bazardiha Road, Varanasi",
+          "Kakarmatta, Varanasi",
+          "BLW / DLW, Varanasi",
+          "Kandwa, Varanasi",
+          "Manduadih, Varanasi",
+          "Sundarpur, Varanasi",
+          "Mahmoorganj, Varanasi",
+          "Susuwahi, Varanasi",
+          "Karaundi, Varanasi",
+          "Bhelupur, Varanasi",
+          "Sigra, Varanasi",
+          "Lehartara, Varanasi",
+          "Durgakund, Varanasi"
+        ],
+        "department": [
+          { "@id": "#shivansh-dental-branch1" },
+          { "@id": "#shivansh-dental-branch2" }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Dental Treatments & Procedures",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "MedicalProcedure", "name": "Dental Implants & Dentures" } },
+            { "@type": "Offer", "itemOffered": { "@type": "MedicalProcedure", "name": "Painless Root Canal Treatment (RCT) & Composite Fillings" } },
+            { "@type": "Offer", "itemOffered": { "@type": "MedicalProcedure", "name": "Zirconia, PFM & Ceramic Crowns & Bridges" } },
+            { "@type": "Offer", "itemOffered": { "@type": "MedicalProcedure", "name": "Braces & Orthodontics" } },
+            { "@type": "Offer", "itemOffered": { "@type": "MedicalProcedure", "name": "Cosmetic Dentistry, Teeth Whitening & Smile Design" } },
+            { "@type": "Offer", "itemOffered": { "@type": "MedicalProcedure", "name": "Ultrasonic Teeth Cleaning, Scaling & Gum Care" } },
+            { "@type": "Offer", "itemOffered": { "@type": "MedicalProcedure", "name": "Oral Surgery, Painless Tooth & Wisdom Tooth Extraction" } },
+            { "@type": "Offer", "itemOffered": { "@type": "MedicalProcedure", "name": "Digital Dental X-Ray (RVG), Pediatric Dentistry & Full Mouth Rehabilitation" } }
+          ]
+        }
+      },
+      {
         "@type": ["Dentist", "MedicalBusiness"],
         "@id": "#shivansh-dental-branch1",
         "name": "Shivansh Dental Clinic – Vishwakarma Nagar Colony, Chitaipur",
+        "parentOrganization": { "@id": "#shivansh-dental-organization" },
+        "image": "images/4.webp",
         "telephone": "+919918453788",
         "currenciesAccepted": "INR",
         "paymentAccepted": "Cash, UPI, Card",
@@ -76,7 +155,7 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Plot No. 1, Vishwakarma Nagar Colony, Chitaipur (Basement Anjali Enterprises)",
+          "streetAddress": "Plot No. 1, Basement-Anjali Enterprises, Vishwakarma Nagar Colony, Chitaipur",
           "addressLocality": "Varanasi",
           "addressRegion": "Uttar Pradesh",
           "addressCountry": "IN"
@@ -86,13 +165,7 @@
           "latitude": 25.2661442,
           "longitude": 82.964943
         },
-        "founder": {
-          "@type": "Person",
-          "name": "Dr. Sarvesh Kumar",
-          "jobTitle": "Dental Surgeon",
-          "honorificSuffix": "B.D.S. (Lko.)",
-          "description": "Senior Dental Surgeon with 20+ years of clinical experience in painless root canal treatment, dental implants, orthodontics, crowns & oral surgery."
-        },
+        "founder": { "@id": "#dr-sarvesh-kumar" },
         "openingHoursSpecification": [
           {
             "@type": "OpeningHoursSpecification",
@@ -106,6 +179,8 @@
         "@type": ["Dentist", "MedicalBusiness"],
         "@id": "#shivansh-dental-branch2",
         "name": "Shivansh Dental Clinic – Shivratanpur, Bazardiha Road, Varanasi",
+        "parentOrganization": { "@id": "#shivansh-dental-organization" },
+        "image": "images/5.webp",
         "telephone": "+919918453788",
         "currenciesAccepted": "INR",
         "paymentAccepted": "Cash, UPI, Card",
@@ -126,6 +201,7 @@
           "latitude": 25.2934923,
           "longitude": 82.9759985
         },
+        "founder": { "@id": "#dr-sarvesh-kumar" },
         "openingHoursSpecification": [
           {
             "@type": "OpeningHoursSpecification",
@@ -141,26 +217,50 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Where are Shivansh Dental Clinic branches located in Varanasi?",
+            "name": "Where are Shivansh Dental Clinic branches located and what are the timings?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Shivansh Dental Clinic operates two convenient branches in Varanasi: Branch 1 at Plot No. 1, Vishwakarma Nagar Colony (Basement Anjali Enterprises) open 10:00 AM – 3:00 PM, and Branch 2 at 12/337, Shivratanpur, Bazardiha Road (Near Ram Janki Temple) open 4:30 PM – 8:30 PM."
+              "text": "Branch 1 (Morning): Plot No. 1, Basement-Anjali Enterprises, Vishwakarma Nagar Colony, Chitaipur, Varanasi — Open 10:00 AM – 3:00 PM. Branch 2 (Evening): 12/337, Shivratanpur, Bazardiha Road, Landmark: Near Ram Janki Temple, Varanasi — Open 4:30 PM – 8:30 PM."
             }
           },
           {
             "@type": "Question",
-            "name": "Who is the doctor at Shivansh Dental Clinic?",
+            "name": "Who is the consulting dentist at Shivansh Dental Clinic?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Dr. Sarvesh Kumar, B.D.S. (Lko.), leads Shivansh Dental Clinic with over 20+ years of trusted clinical experience across all dental specialties."
+              "text": "Both branches are led by Dr. Sarvesh Kumar, B.D.S. (Lko.), bringing over 20+ years of clinical experience in restorative, surgical, prosthetic, and aesthetic dentistry."
             }
           },
           {
             "@type": "Question",
-            "name": "How can I book a dental appointment at either branch?",
+            "name": "How do I book an appointment for either branch?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "You can book an instant WhatsApp appointment or call 9918453788 for both Vishwakarma Nagar Colony, Chitaipur and Shivratanpur, Bazardiha Road branches."
+              "text": "We use a single contact number for both branches: 9918453788. You can fill out our quick WhatsApp Appointment form to select your preferred branch, or tap any WhatsApp button to message us directly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is painless Root Canal Treatment (RCT) available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Using modern motorized rotary endodontic instruments and effective local anesthesia, Dr. Sarvesh Kumar performs comfortable single-sitting and multi-sitting root canal treatments depending on the tooth condition."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What dental services are offered at Shivansh Dental Clinic?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We offer complete oral care including Dental Implants & Dentures, Root Canal Treatment & Tooth-Colored Fillings, Zirconia & Ceramic Crowns & Bridges, Orthodontic Braces, Cosmetic Smile Designing & Whitening, Ultrasonic Scaling & Gum Care, Painless Tooth & Wisdom Tooth Extractions, and Digital X-Rays."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What sterilization & hygiene measures do you follow?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We follow strict hospital-grade autoclave sterilization for all dental instruments, alongside fresh disposable gloves, masks, and surface disinfection protocols between every patient visit."
             }
           }
         ]
@@ -171,7 +271,7 @@
 
   <style>
     /* Performance Optimizations */
-    #facilities, #gallery, #branches, #why-choose-us, #areas-served, #faq, #contact {
+    #doctor, #services, #whitening, #facilities, #gallery, #branches, #why-choose-us, #areas-served, #faq, #contact {
       content-visibility: auto;
       contain-intrinsic-size: 1px 700px;
     }
@@ -308,6 +408,33 @@
       box-shadow: 0 20px 28px -8px rgba(0, 82, 204, 0.16), 0 8px 12px -6px rgba(225, 29, 72, 0.08);
     }
 
+    /* AI Chatbot Styles & Micro-animations */
+    #aiChatWindow {
+      transform-origin: bottom left;
+      transition: opacity 0.25s cubic-bezier(0.16, 1, 0.3, 1), transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    #aiChatWindow.chat-hidden {
+      opacity: 0;
+      transform: translateY(16px) scale(0.94);
+      pointer-events: none;
+    }
+    .chat-chips-scroll::-webkit-scrollbar {
+      height: 4px;
+    }
+    .chat-chips-scroll::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 999px;
+    }
+    @keyframes typingDot {
+      0%, 80%, 100% { transform: scale(0.6); opacity: 0.4; }
+      40% { transform: scale(1); opacity: 1; }
+    }
+    .typing-dot {
+      animation: typingDot 1.2s infinite ease-in-out both;
+    }
+    .typing-dot:nth-child(2) { animation-delay: 0.16s; }
+    .typing-dot:nth-child(3) { animation-delay: 0.32s; }
+
     @media (max-width: 767px) {
       #home h1 {
         font-size: clamp(2.1rem, 8.2vw, 2.8rem);
@@ -330,34 +457,36 @@
     <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-2.5 sm:py-3 flex items-center justify-between">
 
       <!-- Clinic Brand Identity -->
-      <!-- Clinic Brand Identity -->
-<a href="#home" class="flex items-center gap-2.5 sm:gap-3 group" aria-label="Shivansh Dental Clinic Home">
+      <a href="#home" class="flex items-center gap-2.5 sm:gap-3 group" aria-label="Shivansh Dental Clinic Home">
 
-    <!-- Round Clinic Logo -->
-    <div class="w-11 h-11 rounded-full overflow-hidden shrink-0 border-2 border-white shadow-md shadow-brandBlue/25">
-        <img
-            src="images/logo.png"
+        <!-- Round Clinic Logo -->
+        <div class="w-11 h-11 rounded-full overflow-hidden shrink-0 border-2 border-white shadow-md shadow-brandBlue/25">
+          <img
+            src="images/logo.webp"
             alt="Shivansh Dental Clinic Logo"
+            width="44"
+            height="44"
+            decoding="async"
             class="w-full h-full object-cover rounded-full"
-        >
-    </div>
+          >
+        </div>
 
-    <div>
-        <div class="text-base sm:text-xl lg:text-2xl font-black tracking-tight leading-none text-slate-900">
+        <div>
+          <div class="text-base sm:text-xl lg:text-2xl font-black tracking-tight leading-none text-slate-900">
             <span class="text-brandBlue">SHIVANSH </span>
             <span class="text-brandRed">DENTAL</span>
             <span class="text-brandBlue">CLINIC </span>
+          </div>
+
+          <p class="text-[8px] sm:text-[10px] tracking-wider text-slate-500 font-extrabold uppercase mt-0.5">
+            Chitaipur • Bazardiha Road | Varanasi
+          </p>
         </div>
 
-        <p class="text-[8px] sm:text-[10px] tracking-wider text-slate-500 font-extrabold uppercase mt-0.5">
-            Chitaipur • Bazardiha Road | Varanasi
-        </p>
-    </div>
-
-</a>
+      </a>
 
       <!-- Desktop Navigation Links -->
-      <nav class="hidden xl:flex items-center gap-5 font-extrabold text-sm text-slate-700">
+      <nav aria-label="Primary Navigation" class="hidden xl:flex items-center gap-5 font-extrabold text-sm text-slate-700">
         <a href="#home" class="text-brandRed relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-brandRed transition-all">HOME</a>
         <a href="#about" class="hover:text-brandBlue hover:-translate-y-0.5 transition-all py-1">ABOUT</a>
         <a href="#doctor" class="hover:text-brandBlue hover:-translate-y-0.5 transition-all py-1">DOCTOR</a>
@@ -381,7 +510,7 @@
       </div>
 
       <!-- Mobile Menu Toggle Button -->
-      <button id="mobile-toggle" class="xl:hidden text-slate-700 focus:outline-none p-2" aria-label="Toggle navigation menu">
+      <button id="mobile-toggle" class="xl:hidden text-slate-700 focus:outline-none p-2" aria-label="Toggle navigation menu" aria-expanded="false">
         <i class="fa-solid fa-bars text-xl" id="menu-icon"></i>
       </button>
     </div>
@@ -512,32 +641,34 @@
         <!-- Masked Hero Image Slider Container -->
         <div class="w-full lg:w-[100%] h-full rounded-2xl lg:rounded-none lg:rounded-l-[300px] overflow-hidden relative shadow-2xl border-2 sm:border-4 border-white z-10 bg-gradient-to-br from-brandBlueDark via-brandBlue to-slate-900 group">
 
-          <!-- Slide 1 -->
+          <!-- Slide 1 (LCP Priority) -->
           <div class="hero-slide absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-100 z-10">
-            <img src="images/4.png" alt="Shivansh Dental Clinic Modern Operatory Varanasi" class="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700" fetchpriority="high" />
+            <img src="images/4.webp" alt="Shivansh Dental Clinic Modern Operatory Varanasi" class="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700" fetchpriority="high" decoding="sync" />
           </div>
 
           <!-- Slide 2 -->
           <div class="hero-slide absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-0 z-0">
-            <img src="images/5.png" alt="Shivansh Dental Clinic Treatment Chair Vishwakarma Nagar" class="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+            <img src="images/5.webp" alt="Shivansh Dental Clinic Treatment Chair Vishwakarma Nagar" class="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700" loading="lazy" decoding="async" />
           </div>
 
           <!-- Slide 3 -->
           <div class="hero-slide absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-0 z-0">
-            <img src="images/17.webp" alt="Sterilized Clinical Equipment Shivansh Dental Varanasi" class="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+            <img src="images/17.webp" alt="Sterilized Clinical Equipment Shivansh Dental Varanasi" class="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700" loading="lazy" decoding="async" />
           </div>
 
-          <div class="hero-slide absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-0 z-0">
-            <img src="images/7.png" alt="Sterilized Clinical Equipment Shivansh Dental Varanasi" class="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700" loading="lazy" />
-          </div>
           <!-- Slide 4 -->
           <div class="hero-slide absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-0 z-0">
-            <img src="images/8.png" alt="Painless Dental Procedures Shivratanpur Bazardiha Road" class="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+            <img src="images/7.webp" alt="Sterilized Clinical Equipment Shivansh Dental Varanasi" class="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700" loading="lazy" decoding="async" />
           </div>
 
           <!-- Slide 5 -->
           <div class="hero-slide absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-0 z-0">
-            <img src="images/9.png" alt="Shivansh Dental Clinic Patient Lounge Varanasi" class="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+            <img src="images/8.webp" alt="Painless Dental Procedures Shivratanpur Bazardiha Road" class="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700" loading="lazy" decoding="async" />
+          </div>
+
+          <!-- Slide 6 -->
+          <div class="hero-slide absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-0 z-0">
+            <img src="images/9.webp" alt="Shivansh Dental Clinic Patient Lounge Varanasi" class="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700" loading="lazy" decoding="async" />
           </div>
 
           <!-- Active Clinical Badge with Ping Animation -->
@@ -663,7 +794,7 @@
           </p>
 
           <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
-            To make specialist dental care convenient for families across different parts of the city, Shivansh Dental Clinic operates smoothly across <strong>two dedicated Varanasi branches</strong> — morning consultations at <strong>Vishwakarma Nagar Colony, Chtaipur</strong> and evening consultations at <strong>Shivratanpur, Bazardiha Road</strong>.
+            To make specialist dental care convenient for families across different parts of the city, Shivansh Dental Clinic operates smoothly across <strong>two dedicated Varanasi branches</strong> — morning consultations at <strong>Vishwakarma Nagar Colony, Chitaipur</strong> and evening consultations at <strong>Shivratanpur, Bazardiha Road</strong>.
           </p>
 
           <!-- Key Clinical Metrics Strip -->
@@ -713,7 +844,7 @@
                     </span>
                   </div>
                   <p class="text-xs text-slate-300 mt-1 leading-relaxed">
-                    Plot No. 1,Basement-Anjali Enterprises, Vishwakarma Nagar Colony , Chitaipur, Varanasi, UP.
+                    Plot No. 1, Basement-Anjali Enterprises, Vishwakarma Nagar Colony, Chitaipur, Varanasi, UP.
                   </p>
                 </div>
               </div>
@@ -1169,12 +1300,12 @@
           <div class="relative max-w-2xl mx-auto bg-slate-800 p-2.5 sm:p-4 rounded-2xl shadow-2xl border border-slate-700">
             <div class="relative w-full aspect-[4/3] sm:aspect-[16/10] overflow-hidden rounded-xl select-none bg-slate-900" id="twc-slider-container">
 
-              <img src="images/t2.webp" alt="After Teeth Whitening Shivansh Dental Clinic" class="absolute inset-0 w-full h-full object-cover pointer-events-none" loading="lazy" />
+              <img src="images/t2.webp" alt="After Teeth Whitening Shivansh Dental Clinic" class="absolute inset-0 w-full h-full object-cover pointer-events-none" loading="lazy" decoding="async" />
               <span class="absolute top-4 right-4 z-10 bg-brandBlue/90 backdrop-blur-sm text-white text-xs font-black px-3 py-1.5 rounded-md uppercase tracking-wider select-none">
                 After
               </span>
 
-              <img id="twc-before-img" src="images/t1.webp" alt="Before Teeth Whitening Shivansh Dental Clinic" class="absolute inset-0 w-full h-full object-cover pointer-events-none " style="clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);" loading="lazy" />
+              <img id="twc-before-img" src="images/t1.webp" alt="Before Teeth Whitening Shivansh Dental Clinic" class="absolute inset-0 w-full h-full object-cover pointer-events-none" style="clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);" loading="lazy" decoding="async" />
               <span class="absolute top-4 left-4 z-10 bg-brandRed/90 backdrop-blur-sm text-white text-xs font-black px-3 py-1.5 rounded-md uppercase tracking-wider select-none">
                 Before
               </span>
@@ -1320,61 +1451,59 @@
           <div id="galleryTrack" class="flex h-full w-full transition-transform duration-700 ease-in-out">
 
             <div class="min-w-full w-full h-full flex items-center justify-center p-3 sm:p-5 flex-shrink-0">
-              <img src="images/1.png" alt="Shivansh Dental Clinic Operatory 1" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy">
+              <img src="images/1.webp" alt="Shivansh Dental Clinic Operatory 1" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy" decoding="async">
             </div>
 
             <div class="min-w-full w-full h-full flex items-center justify-center p-3 sm:p-5 flex-shrink-0">
-              <img src="images/2.png" alt="Shivansh Dental Clinic Consultation Station" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy">
-            </div>
-
-
-            <div class="min-w-full w-full h-full flex items-center justify-center p-3 sm:p-5 flex-shrink-0">
-              <img src="images/3.png" alt="Clinical Treatment Equipment & Instruments" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy">
-            </div>
-            <div class="min-w-full w-full h-full flex items-center justify-center p-3 sm:p-5 flex-shrink-0">
-              <img src="images/22.webp" alt="Modern Operatory Unit" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy">
+              <img src="images/2.webp" alt="Shivansh Dental Clinic Consultation Station" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy" decoding="async">
             </div>
 
             <div class="min-w-full w-full h-full flex items-center justify-center p-3 sm:p-5 flex-shrink-0">
-              <img src="images/4.png" alt="Sterilized Clean Treatment Suite" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy">
+              <img src="images/3.webp" alt="Clinical Treatment Equipment & Instruments" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy" decoding="async">
             </div>
 
             <div class="min-w-full w-full h-full flex items-center justify-center p-3 sm:p-5 flex-shrink-0">
-              <img src="images/5.png" alt="Modern Operatory Setup" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy">
+              <img src="images/22.webp" alt="Modern Operatory Unit Shivansh Dental Clinic" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy" decoding="async">
             </div>
 
             <div class="min-w-full w-full h-full flex items-center justify-center p-3 sm:p-5 flex-shrink-0">
-              <img src="images/6.png" alt="Comfortable Clinic Reception Area" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy">
+              <img src="images/4.webp" alt="Sterilized Clean Treatment Suite" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy" decoding="async">
             </div>
 
             <div class="min-w-full w-full h-full flex items-center justify-center p-3 sm:p-5 flex-shrink-0">
-              <img src="images/7.png" alt="Dental Operatory View" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy">
+              <img src="images/5.webp" alt="Modern Operatory Setup" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy" decoding="async">
             </div>
 
             <div class="min-w-full w-full h-full flex items-center justify-center p-3 sm:p-5 flex-shrink-0">
-              <img src="images/8.png" alt="Sterilized Instrument Suite" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy">
+              <img src="images/6.webp" alt="Comfortable Clinic Reception Area" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy" decoding="async">
             </div>
 
             <div class="min-w-full w-full h-full flex items-center justify-center p-3 sm:p-5 flex-shrink-0">
-              <img src="images/9.png" alt="Consultation Space" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy">
+              <img src="images/7.webp" alt="Dental Operatory View" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy" decoding="async">
             </div>
 
             <div class="min-w-full w-full h-full flex items-center justify-center p-3 sm:p-5 flex-shrink-0">
-              <img src="images/10.png" alt="Modern Operatory Unit" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy">
+              <img src="images/8.webp" alt="Sterilized Instrument Suite" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy" decoding="async">
             </div>
 
             <div class="min-w-full w-full h-full flex items-center justify-center p-3 sm:p-5 flex-shrink-0">
-              <img src="images/11.png" alt="Modern Operatory Unit" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy">
+              <img src="images/9.webp" alt="Consultation Space" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy" decoding="async">
             </div>
 
             <div class="min-w-full w-full h-full flex items-center justify-center p-3 sm:p-5 flex-shrink-0">
-              <img src="images/13.png" alt="Modern Operatory Unit" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy">
+              <img src="images/10.webp" alt="Modern Operatory Unit" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy" decoding="async">
             </div>
 
-            
+            <div class="min-w-full w-full h-full flex items-center justify-center p-3 sm:p-5 flex-shrink-0">
+              <img src="images/11.webp" alt="Shivansh Dental Clinic Treatment Room" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy" decoding="async">
+            </div>
 
             <div class="min-w-full w-full h-full flex items-center justify-center p-3 sm:p-5 flex-shrink-0">
-              <img src="images/17.webp" alt="Modern Operatory Unit" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy">
+              <img src="images/13.webp" alt="Shivansh Dental Clinic Clinical Suite" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy" decoding="async">
+            </div>
+
+            <div class="min-w-full w-full h-full flex items-center justify-center p-3 sm:p-5 flex-shrink-0">
+              <img src="images/17.webp" alt="Shivansh Dental Clinic Advanced Setup" class="max-h-full max-w-full w-auto h-auto object-contain rounded-xl sm:rounded-2xl shadow-xl select-none" loading="lazy" decoding="async">
             </div>
 
           </div>
@@ -1432,8 +1561,8 @@
               <div class="flex items-start gap-3">
                 <i class="fa-solid fa-location-dot text-brandRed mt-1 text-base shrink-0"></i>
                 <p class="text-slate-700 font-semibold leading-relaxed">
-                  Plot No. 1, Vishwakarma Nagar Colony,<br />
-                  (Basement Anjali Enterprises), Chitaipur<br />
+                  Plot No. 1, Basement-Anjali Enterprises, Vishwakarma Nagar Colony,<br />
+                  Chitaipur<br />
                   Varanasi, Uttar Pradesh, India.
                 </p>
               </div>
@@ -1780,7 +1909,7 @@
           </button>
           <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-5 bg-sky-50/50 text-slate-600 text-sm">
             <div class="py-4 leading-relaxed space-y-2">
-              <p><strong>Branch 1 (Morning):</strong> Plot No. 1, Vishwakarma Nagar Colony (Basement Anjali Enterprises), Chitaipur Varanasi — Open <strong>10:00 AM – 3:00 PM</strong>.</p>
+              <p><strong>Branch 1 (Morning):</strong> Plot No. 1, Basement-Anjali Enterprises, Vishwakarma Nagar Colony, Chitaipur Varanasi — Open <strong>10:00 AM – 3:00 PM</strong>.</p>
               <p><strong>Branch 2 (Evening):</strong> 12/337, Shivratanpur, Bazardiha Road, Landmark: Near Ram Janki Temple, Varanasi — Open <strong>4:30 PM – 8:30 PM</strong>.</p>
             </div>
           </div>
@@ -1909,7 +2038,7 @@
               <div>
                 <h4 class="font-black text-brandBlue text-sm">Branch 1 — Vishwakarma Nagar Colony, Chitaipur</h4>
                 <p class="text-xs text-slate-700 mt-1 leading-relaxed font-semibold">
-                  Plot No. 1, Vishwakarma Nagar Colony (Basement Anjali Enterprises), Chitaipur, Varanasi, UP.
+                  Plot No. 1, Basement-Anjali Enterprises, Vishwakarma Nagar Colony, Chitaipur, Varanasi, UP.
                 </p>
                 <p class="text-xs text-brandRed font-black mt-1">
                   <i class="fa-regular fa-clock mr-1"></i> 10:00 AM – 3:00 PM
@@ -2027,276 +2156,275 @@
   </section>
 
   <!-- ================= 16. FOOTER ================= -->
-  
-<footer class="relative bg-slate-950 text-white border-t border-slate-800 overflow-hidden">
+  <footer class="relative bg-slate-950 text-white border-t border-slate-800 overflow-hidden">
 
     <!-- Subtle Top Accent -->
     <div class="h-1 w-full bg-gradient-to-r from-brandBlue via-sky-400 to-brandRed"></div>
 
     <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
 
-        <!-- Main Footer -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-9 lg:gap-8 py-12 lg:py-14">
+      <!-- Main Footer -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-9 lg:gap-8 py-12 lg:py-14">
 
-            <!-- BRAND SECTION -->
-            <div class="lg:col-span-4 space-y-5">
+        <!-- BRAND SECTION -->
+        <div class="lg:col-span-4 space-y-5">
 
-                <a href="#home" class="inline-flex items-center gap-3 group">
+          <a href="#home" class="inline-flex items-center gap-3 group">
 
-                    <div class="w-12 h-12 rounded-full overflow-hidden shrink-0 border-2 border-white/80 shadow-lg">
-                        <img
-                            src="images/round-logo.png"
-                            alt="Shivansh Dental Clinic"
-                            class="w-full h-full object-cover"
-                            loading="lazy"
-                        >
-                    </div>
-
-                    <div>
-                        <h3 class="text-xl sm:text-2xl font-black tracking-tight leading-none">
-                            <span class="text-brandBlueLight">SHIVANSH</span>
-                            <span class="text-brandRed">DENTAL</span>
-                             <span class="text-brandBlueLight">CLINIC</span>
-                        </h3>
-
-                        <p class="text-[9px] tracking-[0.16em] text-slate-400 font-bold uppercase mt-1.5">
-                            Clinic & Orthodontic Centre
-                        </p>
-                    </div>
-
-                </a>
-
-                <div class="space-y-2">
-                    <p class="text-sm font-bold text-white">
-                        Dr. Sarvesh Kumar
-                    </p>
-
-                    <p class="text-xs text-slate-400 leading-relaxed">
-                        B.D.S. (Lko.) <span class="text-slate-600 mx-1">|</span>
-                        20+ Years of Experience
-                    </p>
-                </div>
-
-                <!-- Call Button -->
-<a
-    href="tel:9918453788"
-    class="inline-flex items-center justify-center gap-2.5 px-5 py-3 rounded-xl bg-gradient-to-r from-brandBlue to-blue-600 hover:from-blue-600 hover:to-brandBlue text-white text-sm font-bold shadow-lg shadow-brandBlue/20 transition-all duration-300 hover:-translate-y-0.5"
->
-    <i class="fa-solid fa-phone-volume"></i>
-    <span>Call Now</span>
-    <i class="fa-solid fa-arrow-right text-xs"></i>
-</a>
-
-<!-- Clinic Locations -->
-<div class="flex items-center gap-2.5 pt-1">
-
-    <span class="w-2 h-2 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.5)]"></span>
-
-    <p class="text-[11px] text-slate-400 font-medium">
-        Two Convenient Clinic Locations in Varanasi
-    </p>
-
-</div>
-
+            <div class="w-12 h-12 rounded-full overflow-hidden shrink-0 border-2 border-white/80 shadow-lg">
+              <img
+                src="images/round-logo.webp"
+                alt="Shivansh Dental Clinic"
+                width="48"
+                height="48"
+                class="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+              >
             </div>
 
+            <div>
+              <h3 class="text-xl sm:text-2xl font-black tracking-tight leading-none">
+                <span class="text-brandBlueLight">SHIVANSH</span>
+                <span class="text-brandRed">DENTAL</span>
+                <span class="text-brandBlueLight">CLINIC</span>
+              </h3>
 
-            <!-- QUICK LINKS -->
-            <div class="lg:col-span-2">
-
-                <h4 class="text-xs font-extrabold uppercase tracking-[0.15em] text-white mb-5">
-                    Quick Links
-                </h4>
-
-                <div class="w-8 h-0.5 bg-brandBlue rounded-full mb-5"></div>
-
-                <ul class="space-y-3 text-xs text-slate-400">
-
-                    <li>
-                        <a href="#home" class="hover:text-white hover:translate-x-1 inline-block transition-all duration-200">
-                            Home
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#about" class="hover:text-white hover:translate-x-1 inline-block transition-all duration-200">
-                            About Clinic
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#doctor" class="hover:text-white hover:translate-x-1 inline-block transition-all duration-200">
-                            Our Doctor
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#services" class="hover:text-white hover:translate-x-1 inline-block transition-all duration-200">
-                            Treatments
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#facilities" class="hover:text-white hover:translate-x-1 inline-block transition-all duration-200">
-                            Facilities
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#gallery" class="hover:text-white hover:translate-x-1 inline-block transition-all duration-200">
-                            Clinic Tour
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#branches" class="hover:text-white hover:translate-x-1 inline-block transition-all duration-200">
-                            Branches & Maps
-                        </a>
-                    </li>
-
-                </ul>
-
+              <p class="text-[9px] tracking-[0.16em] text-slate-400 font-bold uppercase mt-1.5">
+                Clinic &amp; Orthodontic Centre
+              </p>
             </div>
 
+          </a>
 
-            <!-- BRANCH 1 -->
-            <div class="lg:col-span-3">
+          <div class="space-y-2">
+            <p class="text-sm font-bold text-white">
+              Dr. Sarvesh Kumar
+            </p>
 
-                <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-5 h-full">
+            <p class="text-xs text-slate-400 leading-relaxed">
+              B.D.S. (Lko.) <span class="text-slate-600 mx-1">|</span>
+              20+ Years of Experience
+            </p>
+          </div>
 
-                    <div class="flex items-center gap-2 mb-4">
+          <!-- Call Button -->
+          <a
+            href="tel:9918453788"
+            class="inline-flex items-center justify-center gap-2.5 px-5 py-3 rounded-xl bg-gradient-to-r from-brandBlue to-blue-600 hover:from-blue-600 hover:to-brandBlue text-white text-sm font-bold shadow-lg shadow-brandBlue/20 transition-all duration-300 hover:-translate-y-0.5"
+          >
+            <i class="fa-solid fa-phone-volume"></i>
+            <span>Call Now</span>
+            <i class="fa-solid fa-arrow-right text-xs"></i>
+          </a>
 
-                        <span class="w-1 h-5 rounded-full bg-sky-400"></span>
+          <!-- Clinic Locations -->
+          <div class="flex items-center gap-2.5 pt-1">
 
-                        <h4 class="text-xs font-extrabold uppercase tracking-wider text-sky-400">
-                            Branch 01
-                        </h4>
+            <span class="w-2 h-2 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.5)]"></span>
 
-                        <span class="ml-auto text-[9px] font-bold uppercase tracking-wider text-slate-500">
-                            Morning
-                        </span>
+            <p class="text-[11px] text-slate-400 font-medium">
+              Two Convenient Clinic Locations in Varanasi
+            </p>
 
-                    </div>
-
-                    <h5 class="text-sm font-bold text-white leading-relaxed mb-2">
-                        Vishwakarma Nagar Colony, Chitaipur
-                    </h5>
-
-                    <p class="text-xs text-slate-400 leading-relaxed">
-                        Plot No. 1, Basement, Anjali Enterprises,
-                        Vishwakarma Nagar Colony, Chitaipur,
-                        Varanasi, Uttar Pradesh, India.
-                    </p>
-
-                    <div class="border-t border-slate-800 mt-4 pt-4">
-
-                        <div class="flex items-center gap-2 text-amber-300">
-
-                            <i class="fa-regular fa-clock text-sm"></i>
-
-                            <span class="text-xs font-bold">
-                                10:00 AM – 3:00 PM
-                            </span>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- BRANCH 2 -->
-            <div class="lg:col-span-3">
-
-                <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-5 h-full">
-
-                    <div class="flex items-center gap-2 mb-4">
-
-                        <span class="w-1 h-5 rounded-full bg-rose-400"></span>
-
-                        <h4 class="text-xs font-extrabold uppercase tracking-wider text-rose-400">
-                            Branch 02
-                        </h4>
-
-                        <span class="ml-auto text-[9px] font-bold uppercase tracking-wider text-slate-500">
-                            Evening
-                        </span>
-
-                    </div>
-
-                    <h5 class="text-sm font-bold text-white leading-relaxed mb-2">
-                        Shivratanpur, Bazardiha Road
-                    </h5>
-
-                    <p class="text-xs text-slate-400 leading-relaxed">
-                        12/337, Shivratanpur, Bazardiha Road,
-                        Landmark: Near Ram Janki Temple,
-                        Varanasi, Uttar Pradesh, India.
-                    </p>
-
-                    <div class="border-t border-slate-800 mt-4 pt-4">
-
-                        <div class="flex items-center gap-2 text-amber-300">
-
-                            <i class="fa-regular fa-clock text-sm"></i>
-
-                            <span class="text-xs font-bold">
-                                4:30 PM – 8:30 PM
-                            </span>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
+          </div>
 
         </div>
 
+        <!-- QUICK LINKS -->
+        <div class="lg:col-span-2">
 
-        <!-- BOTTOM COPYRIGHT BAR -->
-        <div class="border-t border-slate-800 py-6">
+          <h4 class="text-xs font-extrabold uppercase tracking-[0.15em] text-white mb-5">
+            Quick Links
+          </h4>
 
-            <div class="flex flex-col md:flex-row items-center justify-between gap-3 text-center md:text-left">
+          <div class="w-8 h-0.5 bg-brandBlue rounded-full mb-5"></div>
 
-                <p class="text-[11px] text-slate-500 leading-relaxed">
-                    &copy; <span id="currentYear"> </span>
-                    <span class="text-slate-300 font-semibold"> Shivansh Dental Clinic.</span>
-                    All Rights Reserved.
-                </p>
-
-                <p class="text-[11px] text-slate-500 leading-relaxed">
-                    <!-- Dr. Sarvesh Kumar, B.D.S. (Lko.) -->
-                    <!-- <span class="text-slate-700 mx-1">•</span> -->
-                    Varanasi, Uttar Pradesh, India.
-                </p>
-
-            </div>
+          <ul class="space-y-3 text-xs text-slate-400">
+            <li><a href="#home" class="hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Home</a></li>
+            <li><a href="#about" class="hover:text-white hover:translate-x-1 inline-block transition-all duration-200">About Clinic</a></li>
+            <li><a href="#doctor" class="hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Our Doctor</a></li>
+            <li><a href="#services" class="hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Treatments</a></li>
+            <li><a href="#facilities" class="hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Facilities</a></li>
+            <li><a href="#gallery" class="hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Clinic Tour</a></li>
+            <li><a href="#branches" class="hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Branches &amp; Maps</a></li>
+          </ul>
 
         </div>
+
+        <!-- BRANCH 1 -->
+        <div class="lg:col-span-3">
+
+          <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-5 h-full">
+
+            <div class="flex items-center gap-2 mb-4">
+              <span class="w-1 h-5 rounded-full bg-sky-400"></span>
+              <h4 class="text-xs font-extrabold uppercase tracking-wider text-sky-400">Branch 01</h4>
+              <span class="ml-auto text-[9px] font-bold uppercase tracking-wider text-slate-500">Morning</span>
+            </div>
+
+            <h5 class="text-sm font-bold text-white leading-relaxed mb-2">
+              Vishwakarma Nagar Colony, Chitaipur
+            </h5>
+
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Plot No. 1, Basement-Anjali Enterprises,
+              Vishwakarma Nagar Colony, Chitaipur,
+              Varanasi, Uttar Pradesh, India.
+            </p>
+
+            <div class="border-t border-slate-800 mt-4 pt-4">
+              <div class="flex items-center gap-2 text-amber-300">
+                <i class="fa-regular fa-clock text-sm"></i>
+                <span class="text-xs font-bold">10:00 AM – 3:00 PM</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- BRANCH 2 -->
+        <div class="lg:col-span-3">
+
+          <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-5 h-full">
+
+            <div class="flex items-center gap-2 mb-4">
+              <span class="w-1 h-5 rounded-full bg-rose-400"></span>
+              <h4 class="text-xs font-extrabold uppercase tracking-wider text-rose-400">Branch 02</h4>
+              <span class="ml-auto text-[9px] font-bold uppercase tracking-wider text-slate-500">Evening</span>
+            </div>
+
+            <h5 class="text-sm font-bold text-white leading-relaxed mb-2">
+              Shivratanpur, Bazardiha Road
+            </h5>
+
+            <p class="text-xs text-slate-400 leading-relaxed">
+              12/337, Shivratanpur, Bazardiha Road,
+              Landmark: Near Ram Janki Temple,
+              Varanasi, Uttar Pradesh, India.
+            </p>
+
+            <div class="border-t border-slate-800 mt-4 pt-4">
+              <div class="flex items-center gap-2 text-amber-300">
+                <i class="fa-regular fa-clock text-sm"></i>
+                <span class="text-xs font-bold">4:30 PM – 8:30 PM</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- BOTTOM COPYRIGHT BAR -->
+      <div class="border-t border-slate-800 py-6 pb-20 sm:pb-6">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-3 text-center md:text-left">
+          <p class="text-[11px] text-slate-500 leading-relaxed">
+            &copy; <span id="currentYear"></span>
+            <span class="text-slate-300 font-semibold"> Shivansh Dental Clinic.</span>
+            All Rights Reserved.
+          </p>
+          <p class="text-[11px] text-slate-500 leading-relaxed">
+            Varanasi, Uttar Pradesh, India.
+          </p>
+        </div>
+      </div>
 
     </div>
 
-</footer>
+  </footer>
 
+  <!-- ================= 17. FLOATING AI CHATBOT (LEFT) & WHATSAPP (RIGHT) ================= -->
 
-  <!-- ================= 17. FLOATING ACTION BUTTONS ================= -->
+  <!-- AI Dental Assistant Chatbot Window (Responsive & Mobile Friendly) -->
+  <div
+    id="aiChatWindow"
+    role="dialog"
+    aria-label="Shivansh Dental Clinic AI Assistant"
+    aria-hidden="true"
+    class="chat-hidden fixed bottom-24 left-4 right-4 sm:right-auto sm:left-6 z-[995] sm:w-[375px] h-[72vh] max-h-[540px] min-h-[360px] bg-white rounded-3xl shadow-2xl border border-slate-200 flex flex-col overflow-hidden"
+  >
+    <!-- Chat Header -->
+    <div class="bg-gradient-to-r from-brandBlueDark via-brandBlue to-brandRed text-white px-4 py-3.5 flex items-center justify-between shrink-0">
+      <div class="flex items-center gap-3 min-w-0">
+        <div class="w-10 h-10 rounded-full bg-white/15 border border-white/30 flex items-center justify-center shrink-0 relative">
+          <i class="fa-solid fa-robot text-base text-white"></i>
+          <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 border-2 border-brandBlueDark absolute -bottom-0.5 -right-0.5"></span>
+        </div>
+        <div class="min-w-0">
+          <h4 class="font-black text-sm leading-tight truncate">Shivansh Dental AI</h4>
+          <p class="text-[10px] text-sky-100 font-semibold truncate">Instant Clinic Assistant • 24×7</p>
+        </div>
+      </div>
 
-  <!-- Direct Phone Call Button (Bottom Left) -->
-  <a href="tel:9918453788" class="fixed bottom-6 left-6 z-50 bg-brandBlue hover:bg-brandBlueDark text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 group border-2 border-white" aria-label="Call Shivansh Dental Clinic">
-    <i class="fa-solid fa-phone text-xl animate-pulse"></i>
-    <span class="absolute left-16 bg-slate-900 text-white text-[11px] font-bold px-3 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap shadow-md pointer-events-none">
-      Call Now: 9918453788
+      <div class="flex items-center gap-1.5 shrink-0">
+        <button id="aiChatReset" type="button" title="Reset conversation" aria-label="Reset chat" class="w-8 h-8 rounded-full bg-white/15 hover:bg-white/25 text-white flex items-center justify-center text-xs transition-colors">
+          <i class="fa-solid fa-rotate-right"></i>
+        </button>
+        <button id="aiChatClose" type="button" title="Close chat" aria-label="Close chat" class="w-8 h-8 rounded-full bg-white/15 hover:bg-white/25 text-white flex items-center justify-center text-sm transition-colors">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Chat Messages Container -->
+    <div id="aiChatMessages" class="flex-1 overflow-y-auto overscroll-contain p-3.5 sm:p-4 space-y-3 bg-gradient-to-b from-slate-50 to-sky-50/40 text-xs sm:text-[13px]">
+      <!-- Dynamic messages rendered here -->
+    </div>
+
+    <!-- Quick Question Suggestion Chips -->
+    <div class="px-3 py-2 bg-white border-t border-slate-100 shrink-0">
+      <div class="chat-chips-scroll flex items-center gap-1.5 overflow-x-auto pb-1">
+        <button type="button" data-q="What are your branches and timings?" class="ai-quick-chip shrink-0 bg-sky-50 hover:bg-brandBlue hover:text-white text-brandBlue border border-sky-200 px-2.5 py-1 rounded-full text-[11px] font-bold transition-colors">Branches &amp; Timings</button>
+        <button type="button" data-q="Tell me about Dr. Sarvesh Kumar" class="ai-quick-chip shrink-0 bg-rose-50 hover:bg-brandRed hover:text-white text-brandRed border border-rose-200 px-2.5 py-1 rounded-full text-[11px] font-bold transition-colors">About Doctor</button>
+        <button type="button" data-q="What dental treatments do you offer?" class="ai-quick-chip shrink-0 bg-sky-50 hover:bg-brandBlue hover:text-white text-brandBlue border border-sky-200 px-2.5 py-1 rounded-full text-[11px] font-bold transition-colors">Treatments</button>
+        <button type="button" data-q="Is painless Root Canal Treatment (RCT) available?" class="ai-quick-chip shrink-0 bg-rose-50 hover:bg-brandRed hover:text-white text-brandRed border border-rose-200 px-2.5 py-1 rounded-full text-[11px] font-bold transition-colors">Root Canal (RCT)</button>
+        <button type="button" data-q="How do I book an appointment?" class="ai-quick-chip shrink-0 bg-emerald-50 hover:bg-emerald-600 hover:text-white text-emerald-700 border border-emerald-200 px-2.5 py-1 rounded-full text-[11px] font-bold transition-colors">Book Slot</button>
+        <button type="button" data-q="I have severe tooth pain, what should I do?" class="ai-quick-chip shrink-0 bg-amber-50 hover:bg-amber-600 hover:text-white text-amber-800 border border-amber-200 px-2.5 py-1 rounded-full text-[11px] font-bold transition-colors">Tooth Pain</button>
+        <button type="button" data-q="What are the treatment fees and charges?" class="ai-quick-chip shrink-0 bg-slate-100 hover:bg-slate-800 hover:text-white text-slate-700 border border-slate-200 px-2.5 py-1 rounded-full text-[11px] font-bold transition-colors">Fees &amp; Cost</button>
+      </div>
+    </div>
+
+    <!-- Chat Input Bar -->
+    <form id="aiChatForm" class="p-2.5 bg-white border-t border-slate-200 flex items-center gap-2 shrink-0">
+      <input
+        type="text"
+        id="aiChatInput"
+        autocomplete="off"
+        placeholder="Ask about timings, RCT, braces, branches..."
+        aria-label="Type your dental query"
+        class="flex-1 min-w-0 bg-slate-100 focus:bg-white border border-slate-200 focus:border-brandBlue rounded-full px-3.5 py-2 text-xs sm:text-sm text-slate-800 focus:outline-none transition-colors"
+      />
+      <button type="submit" aria-label="Send message" class="w-9 h-9 rounded-full bg-brandRed hover:bg-brandRedHover text-white flex items-center justify-center shrink-0 shadow-md transition-transform active:scale-95">
+        <i class="fa-solid fa-paper-plane text-xs"></i>
+      </button>
+    </form>
+  </div>
+
+  <!-- AI Chatbot Toggle Button (Bottom Left — Replaces Call Button) -->
+  <button
+    id="aiChatToggle"
+    type="button"
+    aria-label="Open Shivansh Dental AI Assistant"
+    aria-expanded="false"
+    class="fixed bottom-6 left-6 z-[990] bg-gradient-to-tr from-brandBlue to-brandRed hover:from-brandBlueDark hover:to-brandRedHover text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 group border-2 border-white"
+  >
+    <i id="aiChatToggleIcon" class="fa-solid fa-robot text-xl"></i>
+    <span class="absolute -top-0.5 -right-0.5 flex h-3.5 w-3.5">
+      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+      <span class="relative inline-flex rounded-full h-3.5 w-3.5 bg-emerald-500 border-2 border-white"></span>
     </span>
-  </a>
+    <span class="absolute left-16 bg-slate-900 text-white text-[11px] font-bold px-3 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap shadow-md pointer-events-none hidden sm:block">
+      Ask Dental AI Assistant
+    </span>
+  </button>
 
   <!-- Primary WhatsApp Floating Button (Bottom Right) -->
   <a href="https://wa.me/919918453788?text=Hello%20Shivansh%20Dental%20Clinic%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment." target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 group border-2 border-white" aria-label="WhatsApp Appointment">
     <i class="fa-brands fa-whatsapp text-2xl"></i>
-    <span class="absolute right-16 bg-slate-900 text-white text-[11px] font-bold px-3 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap shadow-md pointer-events-none">
+    <span class="absolute right-16 bg-slate-900 text-white text-[11px] font-bold px-3 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap shadow-md pointer-events-none hidden sm:block">
       WhatsApp Appointment
     </span>
   </a>
@@ -2306,7 +2434,7 @@
     <i class="fa-solid fa-arrow-up"></i>
   </button>
 
-  <!-- ================= JAVASCRIPT LOGIC ================= -->
+  <!-- ================= JAVASCRIPT LOGIC (PERFORMANCE-OPTIMIZED + AI CHATBOT) ================= -->
   <script>
     document.addEventListener('DOMContentLoaded', () => {
 
@@ -2314,7 +2442,7 @@
       const yearEl = document.getElementById('currentYear');
       if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-      // Scroll Progress Bar & Back to Top Toggle
+      // Scroll Progress Bar & Back to Top Toggle (RAF Throttled)
       const progressBar = document.getElementById('scroll-progress');
       const backToTopBtn = document.getElementById('backToTop');
       let ticking = false;
@@ -2325,7 +2453,7 @@
             const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
             const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
             const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
-            if (progressBar) progressBar.style.width = scrolled + "%";
+            if (progressBar) progressBar.style.width = scrolled + '%';
 
             if (backToTopBtn) {
               if (winScroll > 400) {
@@ -2356,7 +2484,8 @@
 
       if (mobileToggle && mobileMenu) {
         mobileToggle.addEventListener('click', () => {
-          mobileMenu.classList.toggle('hidden');
+          const isHidden = mobileMenu.classList.toggle('hidden');
+          mobileToggle.setAttribute('aria-expanded', String(!isHidden));
           if (menuIcon) {
             menuIcon.classList.toggle('fa-bars');
             menuIcon.classList.toggle('fa-xmark');
@@ -2366,6 +2495,7 @@
         mobileLinks.forEach(link => {
           link.addEventListener('click', () => {
             mobileMenu.classList.add('hidden');
+            mobileToggle.setAttribute('aria-expanded', 'false');
             if (menuIcon) {
               menuIcon.classList.add('fa-bars');
               menuIcon.classList.remove('fa-xmark');
@@ -2374,32 +2504,43 @@
         });
       }
 
-      // Hero Crossfade Image Slider (Every 2.8s)
+      // Hero Crossfade Image Slider (Pauses when tab is hidden for CPU/Battery efficiency)
       const heroSlides = document.querySelectorAll('.hero-slide');
       let currentHeroSlide = 0;
+      let heroInterval = null;
 
-      if (heroSlides.length > 1) {
-        setInterval(() => {
-          heroSlides[currentHeroSlide].classList.remove('opacity-100', 'z-10');
-          heroSlides[currentHeroSlide].classList.add('opacity-0', 'z-0');
-
-          currentHeroSlide = (currentHeroSlide + 1) % heroSlides.length;
-
-          heroSlides[currentHeroSlide].classList.remove('opacity-0', 'z-0');
-          heroSlides[currentHeroSlide].classList.add('opacity-100', 'z-10');
-        }, 2800);
+      function startHeroSlider() {
+        if (heroSlides.length > 1 && !heroInterval) {
+          heroInterval = setInterval(() => {
+            heroSlides[currentHeroSlide].classList.remove('opacity-100', 'z-10');
+            heroSlides[currentHeroSlide].classList.add('opacity-0', 'z-0');
+            currentHeroSlide = (currentHeroSlide + 1) % heroSlides.length;
+            heroSlides[currentHeroSlide].classList.remove('opacity-0', 'z-0');
+            heroSlides[currentHeroSlide].classList.add('opacity-100', 'z-10');
+          }, 2800);
+        }
       }
 
-      // Clinic Gallery Carousel (Exact Reference Behavior + Touch Swipe)
+      function stopHeroSlider() {
+        if (heroInterval) {
+          clearInterval(heroInterval);
+          heroInterval = null;
+        }
+      }
+
+      startHeroSlider();
+
+      // Clinic Gallery Carousel (Touch Swipe + Visibility-Aware Auto-Slide)
       const galleryTrack = document.getElementById('galleryTrack');
       const prevGalleryBtn = document.getElementById('prevGallery');
       const nextGalleryBtn = document.getElementById('nextGallery');
       const galleryContainer = document.getElementById('galleryContainer');
       let galleryIndex = 0;
+      let galleryInterval = null;
+      let isGalleryVisible = true;
 
-      if (galleryTrack) {
+      if (galleryTrack && galleryContainer) {
         const totalGalleryImages = galleryTrack.children.length;
-        let galleryInterval;
 
         function updateGallery() {
           galleryTrack.style.transform = `translateX(-${galleryIndex * 100}%)`;
@@ -2415,9 +2556,18 @@
           updateGallery();
         }
 
+        function stopGalleryAuto() {
+          if (galleryInterval) {
+            clearInterval(galleryInterval);
+            galleryInterval = null;
+          }
+        }
+
         function startGalleryAuto() {
-          if (galleryInterval) clearInterval(galleryInterval);
-          galleryInterval = setInterval(nextGallery, 3000);
+          stopGalleryAuto();
+          if (isGalleryVisible && !document.hidden) {
+            galleryInterval = setInterval(nextGallery, 3000);
+          }
         }
 
         if (nextGalleryBtn) {
@@ -2440,31 +2590,44 @@
 
         galleryContainer.addEventListener('touchstart', (e) => {
           touchStartX = e.changedTouches[0].screenX;
-          if (galleryInterval) clearInterval(galleryInterval);
+          stopGalleryAuto();
         }, { passive: true });
 
         galleryContainer.addEventListener('touchend', (e) => {
           touchEndX = e.changedTouches[0].screenX;
           const diff = touchStartX - touchEndX;
           if (Math.abs(diff) > 45) {
-            if (diff > 0) {
-              nextGallery();
-            } else {
-              prevGallery();
-            }
+            if (diff > 0) nextGallery();
+            else prevGallery();
           }
           startGalleryAuto();
         }, { passive: true });
 
-        // Pause on hover
-        galleryContainer.addEventListener('mouseenter', () => {
-          if (galleryInterval) clearInterval(galleryInterval);
-        });
-        galleryContainer.addEventListener('mouseleave', () => {
-          startGalleryAuto();
-        });
+        galleryContainer.addEventListener('mouseenter', stopGalleryAuto);
+        galleryContainer.addEventListener('mouseleave', startGalleryAuto);
 
-        startGalleryAuto();
+        if ('IntersectionObserver' in window) {
+          const galleryObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              isGalleryVisible = entry.isIntersecting;
+              if (isGalleryVisible) startGalleryAuto();
+              else stopGalleryAuto();
+            });
+          }, { threshold: 0.15 });
+          galleryObserver.observe(galleryContainer);
+        } else {
+          startGalleryAuto();
+        }
+
+        document.addEventListener('visibilitychange', () => {
+          if (document.hidden) {
+            stopHeroSlider();
+            stopGalleryAuto();
+          } else {
+            startHeroSlider();
+            startGalleryAuto();
+          }
+        });
       }
 
       // Interactive Before / After Comparison Slider
@@ -2534,7 +2697,7 @@
             `• *Symptoms / Notes:* ${notes}`;
 
           const encoded = encodeURIComponent(message);
-          window.open(`https://wa.me/919918453788?text=${encoded}`, '_blank');
+          window.open(`https://wa.me/919918453788?text=${encoded}`, '_blank', 'noopener,noreferrer');
         });
       }
 
@@ -2555,8 +2718,408 @@
         reveals.forEach(el => el.classList.add('active'));
       }
 
+      // ================= SHIVANSH DENTAL AI CHATBOT ENGINE =================
+      const chatToggle = document.getElementById('aiChatToggle');
+      const chatToggleIcon = document.getElementById('aiChatToggleIcon');
+      const chatWindow = document.getElementById('aiChatWindow');
+      const chatClose = document.getElementById('aiChatClose');
+      const chatReset = document.getElementById('aiChatReset');
+      const chatMessages = document.getElementById('aiChatMessages');
+      const chatForm = document.getElementById('aiChatForm');
+      const chatInput = document.getElementById('aiChatInput');
+      const quickChips = document.querySelectorAll('.ai-quick-chip');
+
+      let isChatOpen = false;
+
+      function escapeHtml(str) {
+        return str.replace(/[&<>"']/g, m => ({
+          '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+        }[m]));
+      }
+
+      function scrollChatToBottom() {
+        if (chatMessages) chatMessages.scrollTop = chatMessages.scrollHeight;
+      }
+
+      function appendUserMessage(text) {
+        const div = document.createElement('div');
+        div.className = 'flex justify-end';
+        div.innerHTML = `<div class="bg-brandBlue text-white px-3.5 py-2.5 rounded-2xl rounded-br-sm max-w-[85%] shadow-sm font-medium leading-relaxed">${escapeHtml(text)}</div>`;
+        chatMessages.appendChild(div);
+        scrollChatToBottom();
+      }
+
+      function appendBotMessage(htmlContent) {
+        const div = document.createElement('div');
+        div.className = 'flex items-start gap-2';
+        div.innerHTML = `
+          <div class="w-7 h-7 rounded-full bg-gradient-to-tr from-brandBlue to-brandRed text-white flex items-center justify-center shrink-0 mt-0.5 text-[11px] shadow-sm">
+            <i class="fa-solid fa-robot"></i>
+          </div>
+          <div class="bg-white border border-slate-200 text-slate-700 px-3.5 py-2.5 rounded-2xl rounded-bl-sm max-w-[86%] shadow-sm leading-relaxed space-y-2">
+            ${htmlContent}
+          </div>`;
+        chatMessages.appendChild(div);
+        scrollChatToBottom();
+      }
+
+      function showTyping() {
+        const div = document.createElement('div');
+        div.id = 'aiTypingIndicator';
+        div.className = 'flex items-start gap-2';
+        div.innerHTML = `
+          <div class="w-7 h-7 rounded-full bg-gradient-to-tr from-brandBlue to-brandRed text-white flex items-center justify-center shrink-0 mt-0.5 text-[11px]">
+            <i class="fa-solid fa-robot"></i>
+          </div>
+          <div class="bg-white border border-slate-200 px-3.5 py-3 rounded-2xl rounded-bl-sm shadow-sm flex items-center gap-1">
+            <span class="typing-dot w-1.5 h-1.5 rounded-full bg-brandBlue"></span>
+            <span class="typing-dot w-1.5 h-1.5 rounded-full bg-brandBlue"></span>
+            <span class="typing-dot w-1.5 h-1.5 rounded-full bg-brandRed"></span>
+          </div>`;
+        chatMessages.appendChild(div);
+        scrollChatToBottom();
+      }
+
+      function removeTyping() {
+        const el = document.getElementById('aiTypingIndicator');
+        if (el) el.remove();
+      }
+
+      function actionButtons(customWaText) {
+        const waUrl = `https://wa.me/919918453788?text=${encodeURIComponent(customWaText || 'Hello Shivansh Dental Clinic, I would like to book an appointment with Dr. Sarvesh Kumar.')}`;
+        return `
+          <div class="flex flex-wrap gap-1.5 pt-1">
+            <a href="${waUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white px-2.5 py-1.5 rounded-lg text-[11px] font-bold transition-colors">
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp Now
+            </a>
+            <a href="tel:9918453788" class="inline-flex items-center gap-1.5 bg-brandBlue hover:bg-brandBlueDark text-white px-2.5 py-1.5 rounded-lg text-[11px] font-bold transition-colors">
+              <i class="fa-solid fa-phone"></i> Call 9918453788
+            </a>
+          </div>`;
+      }
+
+      // Comprehensive Clinic Knowledge Base & Intent Engine
+      const intents = [
+        {
+          id: 'branch1',
+          keywords: ['vishwakarma', 'chitaipur', 'anjali', 'branch 1', 'branch1', 'first branch', 'morning branch', 'morning clinic', 'plot no 1'],
+          reply: () => `
+            <p class="font-bold text-brandBlue">📍 Branch 1 — Vishwakarma Nagar Colony, Chitaipur</p>
+            <p><strong>Address:</strong> Plot No. 1, Basement-Anjali Enterprises, Vishwakarma Nagar Colony, Chitaipur, Varanasi, UP.</p>
+            <p><strong>Timings:</strong> 10:00 AM – 3:00 PM (Mon–Sat)</p>
+            <p><strong>Doctor:</strong> Dr. Sarvesh Kumar, B.D.S. (Lko.)</p>
+            ${actionButtons('Hello Shivansh Dental Clinic, I want to book an appointment at Branch 1 (Vishwakarma Nagar Colony, Chitaipur - 10 AM to 3 PM).')}
+          `
+        },
+        {
+          id: 'branch2',
+          keywords: ['shivratanpur', 'bazardiha', 'ram janki', 'branch 2', 'branch2', 'second branch', 'evening branch', 'evening clinic', '12/337'],
+          reply: () => `
+            <p class="font-bold text-brandRed">📍 Branch 2 — Shivratanpur, Bazardiha Road</p>
+            <p><strong>Address:</strong> 12/337, Shivratanpur, Bazardiha Road, Landmark: Near Ram Janki Temple, Varanasi, UP.</p>
+            <p><strong>Timings:</strong> 4:30 PM – 8:30 PM (Mon–Sat)</p>
+            <p><strong>Doctor:</strong> Dr. Sarvesh Kumar, B.D.S. (Lko.)</p>
+            ${actionButtons('Hello Shivansh Dental Clinic, I want to book an appointment at Branch 2 (Shivratanpur, Bazardiha Road - 4:30 PM to 8:30 PM).')}
+          `
+        },
+        {
+          id: 'branches_timings',
+          keywords: ['branch', 'address', 'location', 'where', 'kaha', 'kahan', 'pata', 'map', 'direction', 'timing', 'time', 'open', 'close', 'hour', 'shift', 'samay', 'khula', 'kab', 'sunday', 'saturday', 'monday', 'days'],
+          reply: () => `
+            <p class="font-bold text-slate-900">🏥 Our 2 Branches &amp; Timings (Mon–Sat):</p>
+            <div class="bg-sky-50 border border-sky-200 rounded-xl p-2.5 text-[11.5px]">
+              <p class="font-black text-brandBlue">Branch 1 (Morning): 10:00 AM – 3:00 PM</p>
+              <p>Plot No. 1, Basement-Anjali Enterprises, Vishwakarma Nagar Colony, Chitaipur, Varanasi.</p>
+            </div>
+            <div class="bg-rose-50 border border-rose-200 rounded-xl p-2.5 text-[11.5px]">
+              <p class="font-black text-brandRed">Branch 2 (Evening): 4:30 PM – 8:30 PM</p>
+              <p>12/337, Shivratanpur, Bazardiha Road, Near Ram Janki Temple, Varanasi.</p>
+            </div>
+            <p class="text-[11px] text-slate-500">Same helpline for both branches: <strong>9918453788</strong>. Please confirm Sunday availability via WhatsApp before visiting.</p>
+            ${actionButtons('Hello Shivansh Dental Clinic, please confirm slot timings for an appointment.')}
+          `
+        },
+        {
+          id: 'doctor',
+          keywords: ['doctor', 'dr', 'sarvesh', 'kumar', 'qualification', 'degree', 'bds', 'lucknow', 'lko', 'experience', 'who is', 'specialist', 'dentist'],
+          reply: () => `
+            <p class="font-bold text-brandBlue">👨‍⚕️ Dr. Sarvesh Kumar — B.D.S. (Lko.)</p>
+            <p>Chief Dental Surgeon at <strong>Shivansh Dental Clinic</strong> with <strong>20+ years of clinical experience</strong> and over <strong>10,000+ patients treated</strong> (4.8★ Google Rated).</p>
+            <p><strong>Expertise:</strong> Painless Root Canal (RCT), Dental Implants &amp; Dentures, Zirconia Crowns &amp; Bridges, Braces &amp; Smile Designing, Painless Extractions &amp; Complete Family Dentistry.</p>
+            ${actionButtons('Hello Dr. Sarvesh Kumar, I would like to consult with you at Shivansh Dental Clinic.')}
+          `
+        },
+        {
+          id: 'rct',
+          keywords: ['rct', 'root canal', 'single sitting', 'nerve', 'cavity', 'filling', 'fillings', 'sadan', 'hole', 'composite'],
+          reply: () => `
+            <p class="font-bold text-brandRed">🦷 Painless Root Canal (RCT) &amp; Fillings</p>
+            <p>Yes! Dr. Sarvesh Kumar performs comfortable <strong>single-sitting and multi-sitting Rotary RCT</strong> using motorized endodontic systems and effective local anesthesia, plus invisible tooth-colored <strong>Light Cure Composite Fillings</strong>.</p>
+            ${actionButtons('Hello Shivansh Dental Clinic, I want to book a consultation for Root Canal Treatment (RCT) / Tooth Filling.')}
+          `
+        },
+        {
+          id: 'implants',
+          keywords: ['implant', 'implants', 'denture', 'dentures', 'missing tooth', 'missing teeth', 'artificial', 'nakli', 'replace', 'replacement'],
+          reply: () => `
+            <p class="font-bold text-brandBlue">🦷 Dental Implants &amp; Dentures</p>
+            <p>We provide permanent <strong>Single &amp; Multiple Dental Implants</strong>, <strong>Complete &amp; Partial Dentures</strong>, flexible cast dentures, and implant-supported prosthetics designed for natural chewing comfort.</p>
+            ${actionButtons('Hello Shivansh Dental Clinic, I want to enquire about Dental Implants / Dentures.')}
+          `
+        },
+        {
+          id: 'crowns',
+          keywords: ['crown', 'crowns', 'cap', 'caps', 'bridge', 'bridges', 'zirconia', 'ceramic', 'pfm', 'broken tooth', 'chipped'],
+          reply: () => `
+            <p class="font-bold text-brandBlue">👑 Crowns &amp; Bridges (Dental Caps)</p>
+            <p>We offer natural-shade <strong>Zirconia (Metal-Free) Caps</strong>, <strong>PFM &amp; Ceramic Crowns</strong>, <strong>Fixed Dental Bridges</strong>, and broken tooth reconstruction tailored for durability and natural looks.</p>
+            ${actionButtons('Hello Shivansh Dental Clinic, I want to enquire about Dental Crowns / Bridges.')}
+          `
+        },
+        {
+          id: 'braces',
+          keywords: ['brace', 'braces', 'ortho', 'orthodontic', 'aligner', 'aligners', 'crooked', 'gap', 'straight', 'tedhe', 'tar', 'bite'],
+          reply: () => `
+            <p class="font-bold text-brandRed">😁 Braces &amp; Orthodontics</p>
+            <p>We provide <strong>Metal &amp; Ceramic Braces</strong>, <strong>Clear Aligner guidance</strong>, gap closure, and bite alignment for both teenagers and adults.</p>
+            ${actionButtons('Hello Shivansh Dental Clinic, I want to book an Orthodontics / Braces consultation.')}
+          `
+        },
+        {
+          id: 'cosmetic',
+          keywords: ['whiten', 'whitening', 'bleach', 'smile', 'veneer', 'veneers', 'laminate', 'cosmetic', 'yellow', 'peela', 'stain', 'bright'],
+          reply: () => `
+            <p class="font-bold text-brandBlue">✨ Cosmetic Dentistry &amp; Teeth Whitening</p>
+            <p>Transform your smile with <strong>Professional Teeth Whitening</strong>, <strong>Custom Smile Makeovers</strong>, <strong>Dental Veneers &amp; Laminates</strong>, and aesthetic front tooth repair.</p>
+            ${actionButtons('Hello Shivansh Dental Clinic, I want to book a Teeth Whitening / Smile Design consultation.')}
+          `
+        },
+        {
+          id: 'cleaning',
+          keywords: ['clean', 'cleaning', 'scaling', 'polish', 'polishing', 'tartar', 'plaque', 'gum', 'gums', 'bleed', 'bleeding', 'khoon', 'masuda', 'safai', 'bad breath', 'smell'],
+          reply: () => `
+            <p class="font-bold text-brandRed">🪥 Ultrasonic Teeth Cleaning &amp; Gum Care</p>
+            <p>Our enamel-safe <strong>Piezo Ultrasonic Scaling &amp; Polishing</strong> gently clears tartar, plaque, and coffee/tea stains, and treats bleeding or swollen gums effectively.</p>
+            ${actionButtons('Hello Shivansh Dental Clinic, I want to book an appointment for Teeth Cleaning & Gum Care.')}
+          `
+        },
+        {
+          id: 'extraction',
+          keywords: ['extract', 'extraction', 'wisdom', 'akal', 'remove', 'removal', 'nikalna', 'pull', 'surgery', 'surgical', 'impacted'],
+          reply: () => `
+            <p class="font-bold text-brandBlue">🩺 Painless Extractions &amp; Oral Surgery</p>
+            <p>Dr. Sarvesh Kumar performs safe, gentle <strong>Painless Tooth Extractions</strong>, <strong>Impacted Wisdom Tooth Removal</strong>, and minor oral surgical care under effective local anesthesia.</p>
+            ${actionButtons('Hello Shivansh Dental Clinic, I need a consultation for Tooth / Wisdom Tooth Extraction.')}
+          `
+        },
+        {
+          id: 'kids_xray',
+          keywords: ['kid', 'kids', 'child', 'children', 'bacche', 'pediatric', 'xray', 'x-ray', 'rvg', 'checkup', 'check-up', 'full mouth'],
+          reply: () => `
+            <p class="font-bold text-brandBlue">🩻 Digital X-Ray (RVG) &amp; Family / Kids Care</p>
+            <p>Both clinics offer low-radiation <strong>Digital Dental X-Rays (RVG)</strong>, gentle <strong>Pediatric (Kids) Dentistry</strong>, routine family dental check-ups, and full mouth rehabilitation.</p>
+            ${actionButtons('Hello Shivansh Dental Clinic, I want to book a family / kids dental check-up.')}
+          `
+        },
+        {
+          id: 'pain',
+          keywords: ['pain', 'toothache', 'ache', 'dard', 'swell', 'swelling', 'sujan', 'sensitiv', 'sensitivity', 'thanda', 'garam', 'emergency', 'hurt', 'hurting', 'urgent'],
+          reply: () => `
+            <p class="font-bold text-brandRed">🚨 Experiencing Tooth Pain or Swelling?</p>
+            <p>Please don't ignore toothache, sensitivity, or gum swelling. Until your visit, rinse gently with lukewarm salt water and avoid chewing on the painful side.</p>
+            <p><strong>Get quick relief from Dr. Sarvesh Kumar:</strong></p>
+            <ul class="list-disc pl-4 space-y-0.5 text-[11.5px]">
+              <li><strong>Morning (10 AM–3 PM):</strong> Vishwakarma Nagar Colony, Chitaipur</li>
+              <li><strong>Evening (4:30–8:30 PM):</strong> Shivratanpur, Bazardiha Road</li>
+            </ul>
+            ${actionButtons('Hello Shivansh Dental Clinic, I have urgent tooth pain/swelling and need an early appointment.')}
+          `
+        },
+        {
+          id: 'fees',
+          keywords: ['fee', 'fees', 'cost', 'price', 'charge', 'charges', 'rate', 'kitna', 'kharcha', 'paisa', 'rupee', 'affordable', 'payment', 'upi', 'cash', 'card'],
+          reply: () => `
+            <p class="font-bold text-brandBlue">💳 Transparent Consultation &amp; Treatment Charges</p>
+            <p>We follow <strong>ethical &amp; transparent pricing</strong> with zero hidden costs. Exact treatment charges depend on the tooth condition and clinical diagnosis by <strong>Dr. Sarvesh Kumar</strong>.</p>
+            <p><strong>Payment Accepted:</strong> Cash, UPI, and Card. Message us on WhatsApp to ask about any specific procedure estimate.</p>
+            ${actionButtons('Hello Shivansh Dental Clinic, could you please share the consultation fee and approximate treatment charges?')}
+          `
+        },
+        {
+          id: 'treatments',
+          keywords: ['treatment', 'treatments', 'service', 'services', 'offer', 'procedure', 'facility', 'facilities', 'ilaj', 'kya hota', 'list', 'all'],
+          reply: () => `
+            <p class="font-bold text-slate-900">🦷 Complete Dental Treatments Offered:</p>
+            <ul class="list-disc pl-4 space-y-1 text-[11.5px]">
+              <li><strong>Dental Implants &amp; Dentures</strong></li>
+              <li><strong>Painless Root Canal (RCT) &amp; Fillings</strong></li>
+              <li><strong>Zirconia / Ceramic Crowns &amp; Bridges</strong></li>
+              <li><strong>Braces &amp; Orthodontics</strong></li>
+              <li><strong>Cosmetic Dentistry &amp; Teeth Whitening</strong></li>
+              <li><strong>Ultrasonic Scaling &amp; Gum Care</strong></li>
+              <li><strong>Painless Tooth &amp; Wisdom Tooth Extractions</strong></li>
+              <li><strong>Digital X-Ray (RVG) &amp; Pediatric Care</strong></li>
+            </ul>
+            ${actionButtons('Hello Shivansh Dental Clinic, I want to enquire about dental treatments.')}
+          `
+        },
+        {
+          id: 'sterilization',
+          keywords: ['steril', 'hygiene', 'autoclave', 'cleanliness', 'safe', 'safety', 'infection', 'rating', 'review', 'star', 'google', 'trust'],
+          reply: () => `
+            <p class="font-bold text-brandBlue">🛡️ 100% Sterilized &amp; 4.8★ Google Rated</p>
+            <p>Both branches follow strict <strong>hospital-grade autoclave sterilization</strong>, single-use disposables, and surface disinfection between every patient. Trusted by <strong>10,000+ patients</strong> over 20+ years.</p>
+            ${actionButtons('Hello Shivansh Dental Clinic, I would like to book an appointment.')}
+          `
+        },
+        {
+          id: 'appointment',
+          keywords: ['book', 'appointment', 'slot', 'visit', 'schedule', 'consult', 'consultation', 'whatsapp', 'phone', 'call', 'number', 'contact', 'helpline', 'mobile'],
+          reply: () => `
+            <p class="font-bold text-brandBlue">📅 Instant Appointment Booking</p>
+            <p>Use our unified helpline for both branches: <strong>9918453788</strong>.</p>
+            <p>You can tap <strong>WhatsApp Now</strong> below, call directly, or scroll to our <a href="#contact" class="text-brandRed font-bold underline">WhatsApp Appointment Form</a> to pick your branch and date.</p>
+            ${actionButtons('Hello Shivansh Dental Clinic, I would like to book a dental appointment.')}
+          `
+        },
+        {
+          id: 'areas',
+          keywords: ['area', 'near', 'bhelupur', 'sigra', 'dlw', 'blw', 'kakarmatta', 'manduadih', 'kandwa', 'sundarpur', 'mahmoorganj', 'susuwahi', 'karaundi', 'lehartara', 'durgakund', 'varanasi'],
+          reply: () => `
+            <p class="font-bold text-brandBlue">🗺️ Easily Accessible Across Varanasi</p>
+            <p>Patients regularly visit us from <strong>Chitaipur, Vishwakarma Nagar, Shivratanpur, Bazardiha Road, Kakarmatta, BLW/DLW, Kandwa, Manduadih, Sundarpur, Mahmoorganj, Susuwahi, Karaundi, Bhelupur, Sigra, Lehartara &amp; Durgakund</strong>.</p>
+            <p>Tap <a href="#branches" class="text-brandRed font-bold underline">Branches &amp; Maps</a> for exact Google Map directions.</p>
+            ${actionButtons('Hello Shivansh Dental Clinic, please guide me to the nearest branch.')}
+          `
+        },
+        {
+          id: 'greeting',
+          keywords: ['hi', 'hello', 'hey', 'namaste', 'namaskar', 'good morning', 'good afternoon', 'good evening', 'hii', 'hlo'],
+          reply: () => `
+            <p class="font-bold text-brandBlue">Namaste! 👋 Welcome to Shivansh Dental Clinic.</p>
+            <p>I'm your instant clinic assistant. Ask me anything about <strong>Dr. Sarvesh Kumar</strong>, our <strong>2 Varanasi branches &amp; timings</strong>, <strong>painless RCT, implants, braces, teeth cleaning</strong>, or <strong>appointment booking</strong>!</p>
+          `
+        },
+        {
+          id: 'thanks',
+          keywords: ['thank', 'thanks', 'thx', 'shukriya', 'dhanyawad', 'ok', 'okay', 'bye', 'goodbye', 'great', 'nice'],
+          reply: () => `
+            <p>You're most welcome! 😊 Wishing you a healthy, bright smile.</p>
+            <p>Whenever you're ready to visit, reach us at <strong>9918453788</strong>.</p>
+          `
+        }
+      ];
+
+      function getBotReply(query) {
+        const cleaned = query.toLowerCase().replace(/[^\w\s/-]/g, ' ').replace(/\s+/g, ' ').trim();
+        let bestIntent = null;
+        let bestScore = 0;
+
+        for (const intent of intents) {
+          let score = 0;
+          for (const kw of intent.keywords) {
+            if (cleaned.includes(kw)) {
+              score += kw.includes(' ') ? 3 : 2;
+              if (cleaned === kw) score += 2;
+            }
+          }
+          if (score > bestScore) {
+            bestScore = score;
+            bestIntent = intent;
+          }
+        }
+
+        if (bestIntent && bestScore > 0) {
+          return bestIntent.reply();
+        }
+
+        return `
+          <p class="font-bold text-slate-900">I'd be happy to help with that!</p>
+          <p>For specific clinical queries, Dr. Sarvesh Kumar's team can guide you directly on WhatsApp or call (<strong>9918453788</strong>).</p>
+          <p class="text-[11px] text-slate-500">You can also tap any quick question chip below for Branches, Timings, Treatments, RCT, or Booking.</p>
+          ${actionButtons('Hello Shivansh Dental Clinic, I have a query: ' + query)}
+        `;
+      }
+
+      function initChatGreeting() {
+        if (!chatMessages) return;
+        chatMessages.innerHTML = '';
+        appendBotMessage(`
+          <p class="font-bold text-brandBlue">Welcome to Shivansh Dental Clinic! 🦷</p>
+          <p>Led by <strong>Dr. Sarvesh Kumar, B.D.S. (Lko.)</strong> (20+ Yrs Exp • 4.8★ Rated).</p>
+          <p>Ask me about <strong>branches, timings, painless RCT, implants, braces, fees</strong>, or tap a quick topic below:</p>
+        `);
+      }
+
+      function toggleChat(forceState) {
+        isChatOpen = typeof forceState === 'boolean' ? forceState : !isChatOpen;
+        if (isChatOpen) {
+          chatWindow.classList.remove('chat-hidden');
+          chatWindow.setAttribute('aria-hidden', 'false');
+          chatToggle.setAttribute('aria-expanded', 'true');
+          if (chatToggleIcon) {
+            chatToggleIcon.classList.remove('fa-robot');
+            chatToggleIcon.classList.add('fa-xmark');
+          }
+          if (window.innerWidth >= 768 && chatInput) {
+            setTimeout(() => chatInput.focus(), 220);
+          }
+        } else {
+          chatWindow.classList.add('chat-hidden');
+          chatWindow.setAttribute('aria-hidden', 'true');
+          chatToggle.setAttribute('aria-expanded', 'false');
+          if (chatToggleIcon) {
+            chatToggleIcon.classList.add('fa-robot');
+            chatToggleIcon.classList.remove('fa-xmark');
+          }
+        }
+      }
+
+      function handleUserQuery(text) {
+        const trimmed = text.trim();
+        if (!trimmed) return;
+        appendUserMessage(trimmed);
+        if (chatInput) chatInput.value = '';
+        showTyping();
+        setTimeout(() => {
+          removeTyping();
+          appendBotMessage(getBotReply(trimmed));
+        }, 380);
+      }
+
+      if (chatToggle && chatWindow) {
+        initChatGreeting();
+
+        chatToggle.addEventListener('click', () => toggleChat());
+        if (chatClose) chatClose.addEventListener('click', () => toggleChat(false));
+        if (chatReset) chatReset.addEventListener('click', initChatGreeting);
+
+        if (chatForm) {
+          chatForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            handleUserQuery(chatInput.value);
+          });
+        }
+
+        quickChips.forEach(chip => {
+          chip.addEventListener('click', () => {
+            handleUserQuery(chip.getAttribute('data-q') || chip.textContent);
+          });
+        });
+
+        // Close chatbot when clicking internal section links inside bot replies
+        chatMessages.addEventListener('click', (e) => {
+          const anchor = e.target.closest('a[href^="#"]');
+          if (anchor) toggleChat(false);
+        });
+
+        // Close on Escape key
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && isChatOpen) toggleChat(false);
+        });
+      }
+
     });
   </script>
 </body>
 </html>
-
